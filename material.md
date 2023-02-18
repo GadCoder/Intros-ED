@@ -107,10 +107,16 @@ Una lista enlazada es una **estructura de datos** dinámica usada para almacenar
 ![](images/week-1/linked-list.png)
 Para poder usar una lista enlazada, antes debemos definir un objeto **Nodo** que contenga lo antes mencionado.  
 Veremos las siguientes operaciones en listas enlazadas:  
-   1. Creación
+   1. Creación  
    2. Inserción
-   3. Eliminación
-   4. Busqueda
+      1. Al inicio (en head) / pendiente
+      2. En una posición dada / pendiente
+      3. Al final  (en tail)
+   3. Eliminación / pendiente
+      1. Al inicio (en head)
+      2. En una posición dada
+      3. Al final  (en tail)
+   4. Busqueda / pendiente
    5. Mostrar
    
 ## Semana 2: Listas enlazadas dobles
