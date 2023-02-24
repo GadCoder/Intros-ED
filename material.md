@@ -16,6 +16,9 @@ El objetivo de este curso es brindar los conocimientos necesarios para poder lle
     - [Listas enlazadas simples](#listas-enlazadas-simples)
       - [¿Qué es una lista enlazada?](#qué-es-una-lista-enlazada)
   - [Semana 2: Listas enlazadas dobles](#semana-2-listas-enlazadas-dobles)
+      - [¿Qué es una lista enlazada **doble**?](#qué-es-una-lista-enlazada-doble)
+      - [¿Por qué usar una lista **doble** en lugar de una simple?](#por-qué-usar-una-lista-doble-en-lugar-de-una-simple)
+    - [Ejemplo de uso práctico](#ejemplo-de-uso-práctico)
   - [Semana 3: Listas circulares](#semana-3-listas-circulares)
   - [Semana 4: Pilas y Colas](#semana-4-pilas-y-colas)
   - [Semana 5: Métodos de Ordenamiento y de búsqueda](#semana-5-métodos-de-ordenamiento-y-de-búsqueda)
@@ -120,6 +123,22 @@ Veremos las siguientes operaciones en listas enlazadas:
    5. Mostrar
    
 ## Semana 2: Listas enlazadas dobles
+#### ¿Qué es una lista enlazada **doble**?
+**Resumen aprueba de estudiantes virtuales:** Es lo mismo que una lista enlazada simple, pero ahora los **nodos** también tienen un puntero al nodo **anterior**
+![](images/week-2/linked-list-double.png)  
+
+Las operaciones que podiamos hacer en las LES se siguen manteniendo en las LED, con la diferencia que ahora podemos hacer el **recorrido** de la lista en ambos sentidos (cabeza-cola y cola-cabeza)
+#### ¿Por qué usar una lista **doble** en lugar de una simple?
+De acuerdo con **ChatGPT** (2023), tenemos dos casos principales
+1. Tenemos que recorrer la lista en ambos sentidos
+2. Necesitamos insertar y eliminar nodos en cualquier lugar de la lista y no solo al inicio o fin.
+   
+### Ejemplo de uso práctico
+- Los botones de "retroceso" y "adelante" en un navegador
+  ![](week-2/browser.png)  
+- Un reproductor de música
+  ![](week-2/obi-wan.png)  
+
 ## Semana 3: Listas circulares
 ## Semana 4: Pilas y Colas
 ## Semana 5: Métodos de Ordenamiento y de búsqueda
